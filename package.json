@@ -1,0 +1,21 @@
+{
+  "name": "webpack-core",
+  "version": "1.0.0",
+  "description": "背景：目前前端工程化的主要工具就webpack，主要是用来构建打包项目，虽然再项目体量大了，打包时间会被诟病，但是这也不影响他的强大。今天我们一起来手写一个核心的简易的webpack",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.16.0",
+    "@babel/parser": "^7.16.4",
+    "@babel/traverse": "^7.16.3",
+    "@babel/types": "^7.16.0",
+    "tapable": "^2.2.1"
+  }
+}
